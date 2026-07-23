@@ -1,7 +1,30 @@
 aid: abinitio-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abinitio-bio.png
 name: Abinitio Bio
-description: Abinitio Bio is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Abinitio Bio builds AI foundation models for biopharmaceutical manufacturing,
+  positioning itself as the intelligence layer for drug manufacturing. Its first
+  model, Echo, predicts manufacturing outcomes to assess manufacturability from
+  day one through process scale-up — evaluating molecules early to reduce
+  aggregation and regulatory liabilities, recommending optimal cell lines, media
+  formulations, and bioprocess parameters, predicting process behavior across
+  scales and operating conditions, and delivering lab-validated candidate
+  molecules, processes, and characterization data ready for commercial scale-up.
+  Founded in 2026 in Boston and backed by Y Combinator (Spring 2026), MIT's
+  Researcher-to-Entrepreneur Accelerator, and Fifty Years' 5050 Program. The
+  company operates a B2B model with pharmaceutical companies and CDMOs and does
+  not currently publish a public API or developer platform.
 url: https://raw.githubusercontent.com/api-evangelist/abinitio-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +37,25 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biotechnology
+- Artificial Intelligence
+- Drug Manufacturing
+- Machine Learning
+- Pharmaceuticals
+- Foundation Models
 apis: []
+common:
+- type: DomainSecurity
+  url: security/abinitio-bio-domain-security.yml
+- type: Website
+  url: https://www.abinitio-bio.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
